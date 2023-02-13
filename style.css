@@ -1,0 +1,60 @@
+.body {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.02), 0px 4px 17px rgba(0, 0, 0, 0.14), 0px 4px 22px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+
+.title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2B41B7;
+}
+
+ul li {
+  /* Body 2/Regular */
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+/* identical to box height, or 171% */
+
+
+/* Black primary */
+
+  color: #0D2A54;
+}
+
+.accordion {
+/* Body 1/Bold */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */\
+
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* .panel:hover {
+  color: #0D2A54;} */
+
+.panel {
+  padding: 0 18px;
+  background: #FAF8F6;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
